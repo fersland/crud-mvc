@@ -1,0 +1,7 @@
+#Restringir el acceso a directorios
+Options All -Indexes
+
+#URL AMIGABLES
+
+RewriteEngine on
+RewriteRule ^(\w+)$ index.php?action=$1
